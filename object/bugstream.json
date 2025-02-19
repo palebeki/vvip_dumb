@@ -1,0 +1,92 @@
+[
+    {
+      "username": "john_doe",
+      "severity": "INFO",
+      "submissionTime": "2024-07-05T10:30:00Z",
+      "validationTime": "2024-07-05T10:30:15Z"
+    },
+    {
+      "username": "jane_smith",
+      "severity": "MEDIUM",
+      "submissionTime": "2024-07-05T11:00:00Z",
+      "validationTime": "2024-07-05T11:00:10Z"
+    },
+    {
+      "username": "david_lee",
+      "severity": "HIGH",
+      "submissionTime": "2024-07-05T12:00:00Z",
+      "validationTime": "2024-07-05T12:00:25Z"
+    },
+    {
+      "username": "sarah_jones",
+      "severity": "LOW",
+      "submissionTime": "2024-07-05T13:00:00Z",
+      "validationTime": "2024-07-05T13:00:12Z"
+    },
+    {
+      "username": "michael_davis",
+      "severity": "CRITICAL",
+      "submissionTime": "2024-07-05T14:00:00Z",
+      "validationTime": "2024-07-05T14:00:10Z"
+    },
+    {
+      "username": "emily_brown",
+      "severity": "INFO",
+      "submissionTime": "2024-07-05T15:00:00Z",
+      "validationTime": "2024-07-05T15:00:25Z"
+    },
+    {
+      "username": "james_wilson",
+      "severity": "MEDIUM",
+      "submissionTime": "2024-07-05T16:00:00Z",
+      "validationTime": "2024-07-05T16:00:12Z"
+    },
+    {
+      "username": "olivia_miller",
+      "severity": "HIGH",
+      "submissionTime": "2024-07-05T17:00:00Z",
+      "validationTime": "2024-07-05T17:00:10Z"
+    },
+    {
+      "username": "william_taylor",
+      "severity": "LOW",
+      "submissionTime": "2024-07-05T18:00:00Z",
+      "validationTime": "2024-07-05T18:00:25Z"
+    },
+    {
+      "username": "chloe_anderson",
+      "severity": "CRITICAL",
+      "submissionTime": "2024-07-05T19:00:00Z",
+      "validationTime": "2024-07-05T19:00:12Z"
+    },
+    {
+      "username": "ethan_thomas",
+      "severity": "INFO",
+      "submissionTime": "2024-07-05T20:00:00Z",
+      "validationTime": "2024-07-05T20:00:10Z"
+    },
+    {
+      "username": "sophia_white",
+      "severity": "MEDIUM",
+      "submissionTime": "2024-07-05T21:00:00Z",
+      "validationTime": "2024-07-05T21:00:25Z"
+    },
+    {
+      "username": "mason_harris",
+      "severity": "HIGH",
+      "submissionTime": "2024-07-05T22:00:00Z",
+      "validationTime": "2024-07-05T22:00:12Z"
+    },
+    {
+      "username": "ava_martin",
+      "severity": "LOW",
+      "submissionTime": "2024-07-06T00:00:00Z",
+      "validationTime": "2024-07-06T00:00:10Z"
+    },
+    {
+      "username": "jacob_robinson",
+      "severity": "CRITICAL",
+      "submissionTime": "2024-07-06T01:00:00Z",
+      "validationTime": "2024-07-06T01:00:25Z"
+    }
+  ]

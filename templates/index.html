@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DUMB: Dummy Backend</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif
+        }
+        table {
+            width: 50%;
+            margin: 20px auto;
+            border-collapse: collapse;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+            border: 1px solid #ddd;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        input[type="submit"] {
+            margin: 20px auto;
+            padding: 5px 20px;
+            display: block;
+        }
+        #json-viewer {
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 12px;
+            width: 50%;
+            margin: 20px auto;
+            border: 1px solid #ddd;
+        }
+        #json-viewer li {
+            margin-bottom: 7px;
+        }
+        #json-viewer ol {
+            margin-top: 10px;
+        }
+        #json-viewer a span {
+            color: royalblue;
+        }
+        #json-viewer li > .json-string:last-of-type {
+            color: #0B7500;
+        }
+
+    </style>
+    <!-- Include jQuery -->
+    <script src="/static/jquery-3.6.0.min.js"></script>
+    <!-- Include json-viewer -->
+    <link rel="stylesheet" href="/static/jquery.json-viewer.css" />
+    <script src="/static/jquery.json-viewer.js"></script>
+</head>
+<body>
+    <h1 style="text-align: center;">vvip-dumb </h1>
+    <h3 style="text-align: center; margin-top: -20px ;">dummy backend for VVIP Program</h3>
+    <form method="POST">
+        <table>
+            <!-- <tr>
+                <th>Field</th>
+                <th>Response</th>
+            </tr> -->
+            <tr>
+                <td><label for="delay">Respond delay (ms):</label></td>
+                <td>
+                    <input type="number" name="delay" id="delay" value="{{ config.delay }}" min="0" placeholder="Enter delay in ms">
+                </td>
+               
+            </tr>
+            <tr>
+                <td><label for="profilerespond">Profile status</label></td>
+                <td>
+                    <select name="profilerespond" id="profilerespond">
+                        <option value="0" {% if config.profilerespond == '0' %}selected{% endif %}>Empty (0)</option>
+                        <option value="1" {% if config.profilerespond == '1' %}selected{% endif %}>In verification (1)</option>
+                        <option value="2" {% if config.profilerespond == '2' %}selected{% endif %}>Validated (2)</option>
+                    </select>
+                    
+                </td>
+            </tr>
+            <tr>
+                <td><label for="participaterespond">program participation</label></td>
+                <td>
+                    <select name="participaterespond" id="participaterespond">
+                        <option value="0" {% if config.participaterespond == '0' %}selected{% endif %}>Not Joined (0)</option>
+                        <option value="1" {% if config.participaterespond == '1' %}selected{% endif %}>NDA Verification (1)</option>
+                        <option value="2" {% if config.participaterespond == '2' %}selected{% endif %}>Registered (2)</option>
+                    </select>
+                </td>
+            </tr>
+        </table>
+        <input type="submit" value="Submit">
+    </form>
+
+    <h2 style="text-align: center;">Received JSON Data</h2>
+    <p style="text-align: center; margin-top: -18px;">Refresh page after posting data</p>
+    <div id="json-viewer"></div>
+    {% if json_data %}
+        <script>
+            $(document).ready(function() {
+                var jsonData = {{ json_data | tojson }};
+                $('#json-viewer').jsonViewer(jsonData, { collapsed: true, withQuotes: true });
+            });
+        </script>
+    {% else %}
+        <pre style="display: flex; justify-content: center;">No JSON data received yet.</pre>
+    {% endif %}
+</body>
+</html>

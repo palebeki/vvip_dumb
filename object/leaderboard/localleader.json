@@ -1,0 +1,302 @@
+[
+    {
+        "rank": 1,
+        "user": "TechSavvyTom",
+        "points": 100,
+        "reports": 1
+    },
+    {
+        "rank": 2,
+        "user": "CreativeKate",
+        "points": 95,
+        "reports": 2
+    },
+    {
+        "rank": 3,
+        "user": "GamingGuy",
+        "points": 90,
+        "reports": 1
+    },
+    {
+        "rank": 4,
+        "user": "ArtisticAlex",
+        "points": 85,
+        "reports": 3
+    },
+    {
+        "rank": 5,
+        "user": "MusicLoverMike",
+        "points": 80,
+        "reports": 1
+    },
+    {
+        "rank": 6,
+        "user": "SportySarah",
+        "points": 75,
+        "reports": 2
+    },
+    {
+        "rank": 7,
+        "user": "TravelTim",
+        "points": 70,
+        "reports": 1
+    },
+    {
+        "rank": 8,
+        "user": "FoodieFred",
+        "points": 65,
+        "reports": 3
+    },
+    {
+        "rank": 9,
+        "user": "NatureNick",
+        "points": 60,
+        "reports": 1
+    },
+    {
+        "rank": 10,
+        "user": "BookwormBeth",
+        "points": 55,
+        "reports": 2
+    },
+    {
+        "rank": 11,
+        "user": "MovieManiacMatt",
+        "points": 50,
+        "reports": 1
+    },
+    {
+        "rank": 12,
+        "user": "GamerGirlGrace",
+        "points": 45,
+        "reports": 3
+    },
+    {
+        "rank": 13,
+        "user": "AnimalLoverAmy",
+        "points": 40,
+        "reports": 2
+    },
+    {
+        "rank": 14,
+        "user": "TechieTom",
+        "points": 35,
+        "reports": 1
+    },
+    {
+        "rank": 15,
+        "user": "ChefCharlie",
+        "points": 30,
+        "reports": 3
+    },
+    {
+        "rank": 16,
+        "user": "ArtistAnna",
+        "points": 25,
+        "reports": 2
+    },
+    {
+        "rank": 17,
+        "user": "WriterWendy",
+        "points": 20,
+        "reports": 1
+    },
+    {
+        "rank": 18,
+        "user": "TravelerTim",
+        "points": 15,
+        "reports": 3
+    },
+    {
+        "rank": 19,
+        "user": "FitnessFiona",
+        "points": 10,
+        "reports": 2
+    },
+    {
+        "rank": 20,
+        "user": "MusicianMike",
+        "points": 5,
+        "reports": 1
+    },
+    {
+        "rank": 21,
+        "user": "DancerDaisy",
+        "points": 4,
+        "reports": 2
+    },
+    {
+        "rank": 22,
+        "user": "PhotographerPhil",
+        "points": 3,
+        "reports": 1
+    },
+    {
+        "rank": 23,
+        "user": "GardenerGina",
+        "points": 2,
+        "reports": 3
+    },
+    {
+        "rank": 24,
+        "user": "CyclistCarl",
+        "points": 1,
+        "reports": 2
+    },
+    {
+        "rank": 25,
+        "user": "HikerHannah",
+        "points": 0,
+        "reports": 1
+    },
+    {
+        "rank": 26,
+        "user": "SwimmerSam",
+        "points": 0,
+        "reports": 0
+    },
+    {
+        "rank": 27,
+        "user": "RunnerRachel",
+        "points": 0,
+        "reports": 0
+    },
+    {
+        "rank": 28,
+        "user": "YogiYara",
+        "points": 0,
+        "reports": 0
+    },
+    {
+        "rank": 29,
+        "user": "ClimberChris",
+        "points": 0,
+        "reports": 0
+    },
+    {
+        "rank": 30,
+        "user": "SkaterSteve",
+        "points": 0,
+        "reports": 0
+    },
+    {
+        "rank": 31,
+        "user": "SurferSue",
+        "points": 0,
+        "reports": 0
+    },
+    {
+        "rank": 32,
+        "user": "PilotPete",
+        "points": 0,
+        "reports": 0
+    },
+    {
+        "rank": 33,
+        "user": "SailorSally",
+        "points": 0,
+        "reports": 0
+    },
+    {
+        "rank": 34,
+        "user": "DiverDan",
+        "points": 0,
+        "reports": 0
+    },
+    {
+        "rank": 35,
+        "user": "FishermanFred",
+        "points": 0,
+        "reports": 0
+    },
+    {
+        "rank": 36,
+        "user": "HunterHank",
+        "points": 0,
+        "reports": 0
+    },
+    {
+        "rank": 37,
+        "user": "CamperCathy",
+        "points": 0,
+        "reports": 0
+    },
+    {
+        "rank": 38,
+        "user": "ExplorerEve",
+        "points": 0,
+        "reports": 0
+    },
+    {
+        "rank": 39,
+        "user": "AstronomerAlex",
+        "points": 0,
+        "reports": 0
+    },
+    {
+        "rank": 40,
+        "user": "MeteorologistMia",
+        "points": 0,
+        "reports": 0
+    },
+    {
+        "rank": 41,
+        "user": "GeologistGeorge",
+        "points": 0,
+        "reports": 0
+    },
+    {
+        "rank": 42,
+        "user": "BiologistBeth",
+        "points": 0,
+        "reports": 0
+    },
+    {
+        "rank": 43,
+        "user": "ChemistCarl",
+        "points": 0,
+        "reports": 0
+    },
+    {
+        "rank": 44,
+        "user": "PhysicistPhil",
+        "points": 0,
+        "reports": 0
+    },
+    {
+        "rank": 45,
+        "user": "MathematicianMandy",
+        "points": 0,
+        "reports": 0
+    },
+    {
+        "rank": 46,
+        "user": "StatisticianSteve",
+        "points": 0,
+        "reports": 0
+    },
+    {
+        "rank": 47,
+        "user": "EconomistEve",
+        "points": 0,
+        "reports": 0
+    },
+    {
+        "rank": 48,
+        "user": "HistorianHank",
+        "points": 0,
+        "reports": 0
+    },
+    {
+        "rank": 49,
+        "user": "PhilosopherPhil",
+        "points": 0,
+        "reports": 0
+    },
+    {
+        "rank": 50,
+        "user": "LinguistLara",
+        "points": 0,
+        "reports": 0
+    }
+]
